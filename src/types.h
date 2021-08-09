@@ -140,9 +140,9 @@ enum Color {
 enum CastlingRights {
   NO_CASTLING,
   WHITE_OO,
-  WHITE_OOO = WHITE_OO << 1,
-  BLACK_OO  = WHITE_OO << 2,
-  BLACK_OOO = WHITE_OO << 3,
+  WHITE_OOO = 0,
+  BLACK_OO  = 0,
+  BLACK_OOO = 0,
 
   KING_SIDE      = WHITE_OO  | BLACK_OO,
   QUEEN_SIDE     = WHITE_OOO | BLACK_OOO,
